@@ -28,5 +28,9 @@ function onPhotoDataSuccess(imageData)
   smallImage.src = "data:image/jpeg;base64," + imageData;
 }
 
+function onFail(message)
+{
+  alert('Failed because: ' + message);
+}
 
 })();
